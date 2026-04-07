@@ -13,4 +13,4 @@ def somar(a: int, b: int):
 
 @app.get("/multiplicar/{a}/{b}")
 def multiplicar(a: int, b: int):
-    return {"resultado": 5}
+    return {"resultado": a * b}
